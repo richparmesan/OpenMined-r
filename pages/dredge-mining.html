@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learner Resources</title>
+    <link
+      rel="shortcut icon"
+      href="../assets/images/favicon.png"
+      type="image/png"
+    />
+    <link rel="stylesheet" href="../assets/css/animate.css" />
+    <link rel="stylesheet" href="../assets/css/glightbox.min.css" />
+    <link rel="stylesheet" href="../assets/css/lineIcons.css" />
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../assets/css/home.css" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <style>
+    .text-justify,
+    .text {
+      text-align: justify;
+    }
+  </style>
+  <body>
+    <div class="preloader">
+      <div class="loader">
+        <div class="spinner">
+          <div class="spinner-container">
+            <div class="spinner-rotator">
+              <div class="spinner-left">
+                <div class="spinner-circle"></div>
+              </div>
+              <div class="spinner-right">
+                <div class="spinner-circle"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="header">
+      <div class="logo">
+        <a href="../index.html">OpenMINED Learners</a>
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <a href="home.html">Home</a>
+          </li>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+          <li class="dropdown active">
+            <a href="surfacemining.html">Learning Resources</a>
+            <ul>
+              <li>
+                <a href="surfacemining.html">Surface Mining</a>
+              </li>
+              <li>
+                <a href="mechanical-extraction.html">Mechanical Extraction</a>
+              </li>
+              <li><a href="Aqueous-extraction.html">Aqueous Extraction</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="trivias.html">Trivias</a>
+          </li>
+          <li>
+            <a href="mining-caraga.html">Surface Mining in Caraga</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <section id="about">
+      <!--====== ABOUT PART START ======-->
+      <div class="about-area pt-70">
+        <div class="container mt-1">
+          <div class="row">
+            <div class="col-lg-12">
+              <div
+                class="mt-1 wow fadeInLeftBig"
+                data-wow-duration="1s"
+                data-wow-delay="0.5s"
+              >
+                <div class="section-title">
+                  <h4 class="title">
+                    <span>Aqueous Extraction: Dredge Mining</span>
+                  </h4>
+                </div>
+
+                <div
+                  class="about-image text-center mt-1 wow fadeInRightBig"
+                  data-wow-duration="1s"
+                  data-wow-delay="0.5s"
+                >
+                  <div class="container mt-5">
+                    <!-- Replace the src attribute with your YouTube link -->
+                    <video
+                      src="../assets/images/openpit/dredging.mp4"
+                      autoplay
+                      muted
+                      loop
+                    ></video>
+                  </div>
+
+                  <!-- Add this HTML for your modal -->
+
+                  <!-- Your button with a class -->
+                  <div class="button">
+                    <button
+                      class="open-cast-btn wow fadeInUp mt-4 me-3"
+                      id="openModal1"
+                    >
+                      Cycle Operation
+                    </button>
+
+                    <button
+                      class="open-cast-btn wow fadeInUp mt-4 me-3"
+                      id="openModal2"
+                    >
+                      Conditions
+                    </button>
+
+                    <button
+                      class="open-cast-btn wow fadeInUp mt-4 me-3"
+                      id="openModal3"
+                    >
+                      Characteristics
+                    </button>
+
+                    <button
+                      class="open-cast-btn wow fadeInUp mt-4"
+                      id="openModal4"
+                    >
+                      Types of Dredging
+                    </button>
+                  </div>
+
+                  <div id="myModal1" class="modal">
+                    <div class="modal-content">
+                      <span class="close-modal" id="closeModal1">&times;</span>
+                      <h2>Cycle Operation</h2>
+                      <p class="text mt-3 text-justify">
+                        The uninterrupted operation of the dredge reduces
+                        disruptions in handling materials. While water aids in
+                        digging, the majority of excavation is mechanized.
+                        Mineral processing, frequently employing wet gravity
+                        separation, takes place on the dredge itself. Waste is
+                        deposited directly into the dredge's pond, gradually
+                        filling it as the dredge advances. The process of
+                        reclamation is smoothly integrated into the dredging
+                        procedure.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div id="myModal2" class="modal">
+                    <div class="modal-content">
+                      <span class="close-modal" id="closeModal2">&times;</span>
+                      <h2>Conditions</h2>
+                      <div>
+                        <table
+                          class="table table-bordered table-striped text-center mt-5"
+                        >
+                          <tbody>
+                            <tr>
+                              <td class="fw-bold">Ore Strength</td>
+                              <td class="fw-bold">
+                                unconsolidated deposit of soil, gravel, or
+                                similar material; some boulders permissible,
+                                depending on dredge type; prefer valuable
+                                mineral to be heavier than waste
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="fw-bold">Rock strength</td>
+                              <td class="fw-bold">Unconsolidated.</td>
+                            </tr>
+                            <tr>
+                              <td class="fw-bold">Deposit shape</td>
+                              <td class="fw-bold">
+                                placer, tabular, bank, or bench
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="fw-bold">Deposit dip</td>
+                              <td class="fw-bold">
+                                preferably flat (maximum of 2% to 6% grade)
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="fw-bold">Deposit size</td>
+                              <td class="fw-bold">
+                                intermediate to large (thickness 25 to 200 ft,
+                                or 8 to 60 m)
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="fw-bold">Ore grade</td>
+                              <td class="fw-bold">can be very low</td>
+                            </tr>
+                            <tr>
+                              <td class="fw-bold">Ore uniformity</td>
+                              <td class="fw-bold">fairly uniform</td>
+                            </tr>
+                            <tr>
+                              <td class="fw-bold">Depth</td>
+                              <td class="fw-bold">
+                                very shallow, little overburden
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="fw-bold">Other</td>
+                              <td class="fw-bold">
+                                moderate quantities of water required (200 to
+                                2000 gal/min, or 13 to 125 1/sec)
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+
+                        <button
+                          class="navbar-toggler"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#navbarSupportedContent"
+                          aria-controls="navbarSupportedContent"
+                          aria-expanded="false"
+                          aria-label="Toggle navigation"
+                        >
+                          <span class="toggler-icon"> </span>
+                          <span class="toggler-icon"> </span>
+                          <span class="toggler-icon"> </span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="myModal3" class="modal">
+                    <div class="modal-content">
+                      <span class="close-modal" id="closeModal3">&times;</span>
+
+                      <div class="row">
+                        <div class="col-lg-6 mt-5">
+                          <h3 class="title">
+                            <span>Advantages</span>
+                          </h3>
+                          <div class="card mt-5">
+                            <div class="card-body">
+                              <p class="card-text mt-3">
+                                1. Most productive of all mining methods (250 to
+                                400 yd3, or 190 to 300 m3, of gravel per
+                                employee-shift).
+                              </p>
+                              <p class="card-text mt-3">
+                                2. Lowest mining cost (relative cost < 5%).
+                              </p>
+                              <p class="card-text mt-3">
+                                3. High production rate (maximum of 9 million
+                                yd3 or 7 million m3 a year)
+                              </p>
+                              <p class="card-text mt-3">
+                                4. Low labor requirements (crew of 2 to 30
+                                people).
+                              </p>
+                              <p class="card-text mt-3">
+                                5. Good recovery (up to 90%).
+                              </p>
+                              <p class="card-text mt-3">
+                                6. Continuous operation with no breakage
+                                required.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-6 mt-5">
+                          <h3 class="title">
+                            <span>Disadvantages</span>
+                          </h3>
+                          <div class="card mt-5">
+                            <div class="card-body">
+                              <p class="card-text mt-3">
+                                1. Environmental damage can be severe;
+                                environmental protection must be exercised;
+                                outlawed in some states.
+                              </p>
+                              <p class="card-text mt-3">
+                                2. Moderate water requirements (600 to 800
+                                gal/yd3, or 3000 to 4000 1/m3, of material
+                                mined).
+                              </p>
+                              <p class="card-text mt-3">
+                                3. Limited to unconsolidated deposits that
+                                disintegrate under hydraulic or mechanical
+                                attack.
+                              </p>
+                              <p class="card-text mt-3">
+                                4. High capital investment for large dredges.
+                              </p>
+                              <p class="card-text mt-3">
+                                5. Inflexible and unselective; limited to
+                                placer-type deposits
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="myModal4" class="modal">
+                    <div class="modal-content">
+                      <span class="close-modal" id="closeModal4">&times;</span>
+                      <h2>Types of Dredging</h2>
+
+                      <p class="text mt-5">
+                        <strong>1. Plain-Suction:</strong> This common dredge
+                        relies on suction to remove loose debris without a
+                        cutting tool for penetrating the water body bottom.
+                      </p>
+                      <p class="text mt-2">
+                        <strong>2. Cutter-Suction:</strong> Equipped with a
+                        cutting tool, this dredge loosens material from the
+                        bottom, making it effective for hard surfaces that
+                        hinder standard suction methods.
+                      </p>
+                      <p class="text mt-2">
+                        <strong>3. Auger-Suction:</strong> Operating like an
+                        auger, this dredge bores into the bed to loosen and
+                        suction debris, making it ideal for heavy-duty sediment
+                        removal in applications like wastewater treatment.
+                      </p>
+                      <p class="text mt-2">
+                        <strong>4. Jet-Lift:</strong> This advanced equipment
+                        uses a high-volume water stream to draw in water, silt,
+                        and debris, offering efficient sediment removal.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- section title -->
+                <p class="text mt-5">
+                  Dredge Mining uses a floating vessel to extract minerals from
+                  a placer deposit mechanically or hydraulically. Dredging is
+                  the underwater excavation of placer deposits, usually carried
+                  out from a floating vessel called a dredge, which may
+                  incorporate processing and waste disposal facilities.
+                </p>
+                <p class="text mt-3">
+                  Dredging is the process of underwater mining/excavation of a
+                  placer deposit lying over the floor of a natural pond, lake,
+                  river, sea, etc. This method is often used to bring up
+                  underwater mineral deposits.
+                </p>
+                <p class="text mt-3">This method consists of two (2) types.</p>
+
+                <p class="text mt-3">
+                  <strong>1. Shallow Water Methods</strong>
+                </p>
+
+                <p class="text ms-3 mt-3">
+                  - This method is often classified by the method of excavation
+                  and materials transport. <br />- The two classifications of
+                  Shallow Water Mining methods by Transportation.
+                </p>
+
+                <p class="text ms-3 mt-3">1. Mechanical Dredge</p>
+                <p class="text ms-5 mt-3">
+                  - The placer deposits are mechanically excavated and
+                  transported.
+                </p>
+                <p class="text ms-5 mt-3">
+                  - Example: <strong>Bucketline Dredges</strong> exhibit
+                  continuous excavation efficiency, mining, processing, and
+                  discarding tailings seamlessly. The system lacks storage
+                  options, relying on gravity to move the stream. Buckets on a
+                  ladder dig the mine face, transporting materials to a hopper
+                  that feeds the washing plant, showcasing high excavation
+                  capabilities.
+                </p>
+
+                <p class="text ms-3 mt-3">
+                  2. Hydraulic Dredge (Suction Dredge)
+                </p>
+                <p class="text ms-5 mt-3">
+                  - In this method, water is used as a transportation medium.
+                </p>
+                <p class="text ms-5 mt-3">
+                  - Suction Cutter dredges employ rotating cutting arms within a
+                  basket around a suction intake. These arms break up bank
+                  material, turning it into a slurry for easy suction into the
+                  dredge. This method has demonstrated success in extracting
+                  unconsolidated beach sand and offshore placers.
+                </p>
+
+                <p class="text mt-3">
+                  <strong>2. Deep sea (Marine Mining) Methods</strong>
+                </p>
+                <p class="text ms-3 mt-3">
+                  - Deep-sea mining is the extraction of valuable minerals from
+                  the ocean floor at significant depths. Specialized equipment
+                  is used to harvest mineral deposits like polymetallic nodules,
+                  sulphides, and cobalt-rich crusts. This process occurs in
+                  areas with high concentrations of metals such as copper,
+                  nickel, cobalt, and rare earth elements. Ongoing research and
+                  debate focus on the environmental impact and sustainability of
+                  deep-sea mining, raising concerns about potential harm to
+                  deep-sea ecosystems and biodiversity.
+                </p>
+
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="toggler-icon"> </span>
+                  <span class="toggler-icon"> </span>
+                  <span class="toggler-icon"> </span>
+                </button>
+              </div>
+              <!-- about content -->
+            </div>
+          </div>
+          <!-- row -->
+        </div>
+        <!-- container -->
+      </div>
+    </section>
+
+    <div class="d-flex justify-content-between mt-5">
+      <a href="hydraulic-mining.html" class="text-decoration-none">
+        <button class="main-btn wow fadeInUp mx-5">Back</button>
+      </a>
+      <a href="Aqueous-extraction.html" class="text-decoration-none">
+        <button class="main-btn wow fadeInUp mx-5">Next</button>
+      </a>
+    </div>
+
+    <footer id="footer" class="footer-area pt-120" style="z-index: 0">
+      <div class="container">
+        <!-- subscribe area -->
+        <div class="footer-widget pb-100">
+          <!-- row -->
+        </div>
+        <!-- footer widget -->
+        <div class="footer-copyright">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="copyright d-sm-flex justify-content-between">
+                <div class="copyright-content">
+                  <p class="text">
+                    2023 OpenMINED Learner, All Rights Reserved.
+                  </p>
+                </div>
+                <!-- copyright content -->
+              </div>
+              <!-- copyright -->
+            </div>
+          </div>
+          <!-- row -->
+        </div>
+        <!-- footer copyright -->
+      </div>
+      <!-- container -->
+      <div id="particles-2"></div>
+    </footer>
+  </body>
+
+  <script src="../assets/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/js/wow.min.js"></script>
+  <script src="../assets/js/glightbox.min.js"></script>
+  <script src="../assets/js/count-up.min.js"></script>
+  <script src="../assets/js/particles.min.js"></script>
+  <script src="../assets/js/main.js"></script>
+  <script src="../assets/js/home.js"></script>
+  <script src="../assets/js/modal.js"></script>
+</html>
