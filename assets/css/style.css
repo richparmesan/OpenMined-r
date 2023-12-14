@@ -2307,7 +2307,7 @@ width: 100%;
 }
 .owl-carousel .owl-item img {
   transform-style: preserve-3d;
-  max-width: 90px;
+  max-width: 450px;
   margin: 0 auto 17px;
 }
 #customers-testimonials.owl-carousel .owl-dots .owl-dot.active span,
@@ -2376,3 +2376,37 @@ width: 100%;
 .text {
   text-align: justify;
 }
+
+
+.about-content .equipment-img4 img {
+    width: 100% !important;
+    height: auto !important;
+}
+
+.about-content .aqueous-equipment-img7 img {
+    width: 50% !important;
+    height: auto !important;
+}
+
+.about-content .aqueous-equipment-img5 img {
+    width: 75% !important;
+    height: auto !important;
+}
+
+.wrapper-prezi {
+  position: relative;
+  margin: 0;
+  padding: 50px;
+}
+
+.blurry-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('../assets/images/openpit/bg-prezi-cycle-operation.JPG') center center / cover no-repeat;
+  filter: blur(20px); /* Adjust the blur value as needed */
+  z-index: -1;
+}
+
