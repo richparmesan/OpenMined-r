@@ -2246,6 +2246,23 @@ width: 100%;
   
 }
 
+/*ilhanan*/
+
+.modal-content-leaching {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 600px; 
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  max-height: 100%; 
+  overflow-y: auto; 
+  
+}
+
 .close-modal {
   position: absolute;
   top: 10px;
@@ -2310,6 +2327,7 @@ width: 100%;
   max-width: 450px;
   margin: 0 auto 17px;
 }
+
 #customers-testimonials.owl-carousel .owl-dots .owl-dot.active span,
 #customers-testimonials.owl-carousel .owl-dots .owl-dot:hover span {
   background: #fff;
@@ -2409,4 +2427,17 @@ width: 100%;
   filter: blur(20px); /* Adjust the blur value as needed */
   z-index: -1;
 }
+
+/*audio controls*/
+
+  audio {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  /* Style the individual audio controls */
+  audio::-webkit-media-controls-play-button,
+  audio::-webkit-media-controls-volume-slider {
+ 
+  }
 
