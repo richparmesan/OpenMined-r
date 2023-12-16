@@ -115,6 +115,27 @@
               </div>
             </div>
           </div>
+          
+          <!-- Sliding modal -->
+          <div id="slidingModal" class="sliding-modal">
+            <span class="close-slide-modal" onclick="closeSlidingModal()">&times;</span>
+            <p class="text-white">Hover mouse to veiw details.</p>
+          </div>
+
+          <script>
+            // Function to open the sliding modal
+            function openSlidingModal() {
+              document.getElementById("slidingModal").style.left = "0";
+            }
+
+            // Function to close the sliding modal
+            function closeSlidingModal() {
+              document.getElementById("slidingModal").style.left = "-400px";
+            }
+
+            // Open the sliding modal after a delay of 10 seconds
+            setTimeout(openSlidingModal, 5000);
+          </script>
           <!-- row -->
         </div>
         <!-- container -->

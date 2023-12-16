@@ -2428,16 +2428,27 @@ width: 100%;
   z-index: -1;
 }
 
-/*audio controls*/
+/* Custom styles for the sliding modal */
+.sliding-modal {
+  position: fixed;
+  top: 500px;
+  left: -400px; /* Initial position off the left side of the screen */
+  width: 400px;
+  height: 10%;
+  background-color: #52bf75; /* Adjust the background color as needed */
+  overflow-x: hidden;
+  transition: 0.5s; /* Transition effect to make it slide in smoothly */
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3); /* Optional: Add shadow for a better visual effect */
+  z-index: 9999;
+  padding: 20px;
+  color: white !important;
+}
 
-  audio {
-    width: 100%;
-    margin-top: 10px;
-  }
-
-  /* Style the individual audio controls */
-  audio::-webkit-media-controls-play-button,
-  audio::-webkit-media-controls-volume-slider {
- 
-  }
+.close-slide-modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 24px;
+}
 
